@@ -99,3 +99,4 @@ def parse():
     
     region_tables = {}
     region_tables={'JP-Okinawa':date_patientstates}
+    store_data(region_tables, 'okinawa', cols)
